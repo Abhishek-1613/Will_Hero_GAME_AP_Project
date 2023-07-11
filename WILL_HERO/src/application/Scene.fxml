@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Pane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="122.0" layoutY="7.0" text="WILL HERO GAME" textAlignment="CENTER" textFill="#f4f1f0">
+         <font>
+            <Font name="Calibri Bold Italic" size="48.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="376.0" layoutY="93.0" mnemonicParsing="false" onAction="#New_game" prefHeight="51.0" prefWidth="156.0" text="New Game" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="368.0" layoutY="200.0" mnemonicParsing="false" onAction="#Resume_game" prefHeight="51.0" prefWidth="163.0" text="Load Game" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Quit" alignment="CENTER" layoutX="376.0" layoutY="303.0" mnemonicParsing="false" onAction="#Quit" text="Quit Game" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="image1" fitHeight="238.0" fitWidth="321.0" layoutX="14.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@will2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="i_newg" layoutX="515.0" layoutY="93.0" mnemonicParsing="false" onAction="#i_newgame" prefHeight="19.0" prefWidth="13.0" text="i" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font></Button>
+      <Button fx:id="i_resg" layoutX="515.0" layoutY="200.0" mnemonicParsing="false" onAction="#i_resumegame" prefHeight="19.0" prefWidth="13.0" text="i" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold Italic" size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

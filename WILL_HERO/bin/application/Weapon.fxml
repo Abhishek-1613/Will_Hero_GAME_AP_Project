@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: Black; -fx-border-color: Black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Label alignment="CENTER" layoutX="125.0" text="Weapon SHOP" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="48.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.5568181822697322" startX="1.0" startY="0.950757536021146">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <Button fx:id="Weapon1" layoutX="112.0" layoutY="92.0" mnemonicParsing="false" onAction="#Weapon1" text="Sword">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="Weapon2" layoutX="125.0" layoutY="237.0" mnemonicParsing="false" onAction="#Weapon2" text="Axe">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="24.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="dragonhelmet" fitHeight="135.0" fitWidth="34.0" layoutX="417.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" rotate="140.4">
+         <image>
+            <Image url="@WeaponSword.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="weaponhelmet" fitHeight="123.0" fitWidth="85.0" layoutX="411.0" layoutY="210.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="-43.0">
+         <image>
+            <Image url="@WeaponAxe.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="265.0" layoutY="251.0" text="500" textAlignment="CENTER" textFill="#00fc58">
+         <font>
+            <Font name="Bernard MT Condensed" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="265.0" layoutY="106.0" text="500" textAlignment="CENTER" textFill="#00fc58">
+         <font>
+            <Font name="Bernard MT Condensed" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="35.0" fitWidth="27.0" layoutX="300.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Coin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="27.0" layoutX="300.0" layoutY="248.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Coin.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="278.0" layoutY="343.0" mnemonicParsing="false" onAction="#Shop" text="BACK">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,2 @@
+module WILL_HERO {
+}
