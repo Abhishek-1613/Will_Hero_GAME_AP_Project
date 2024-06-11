@@ -5,17 +5,17 @@ This project is a simple clone of the Will Hero game, developed using Java and J
 
 ## Features
 - Implementation of game mechanics using Java language, OOPs principles, and concurrency.
-- The user interface is designed with FXML (JavaFX).
+- The user interface is designed with FXML (JavaFX should be downloaded in your IDE).
 - Application of OOP principles.
 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/will-hero-game.git
-    cd will-hero-game
+    git clone https://github.com/Abhishek-1613/Will_Hero_GAME_AP_Project.git
+    cd WILL_HERO/src/application/Main.java
     ```
 2. Open the project in your preferred Java IDE (e.g., Eclipse, IntelliJ).
-3. Run the project from your IDE.
+3. Run the project from your IDE by running "Main.java."
 
 ## Usage
 - Start the game from the main menu.
